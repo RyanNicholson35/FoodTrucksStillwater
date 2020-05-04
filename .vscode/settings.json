@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1abf89da-4f1e-408b-ba74-ec820ba4acbe/resourceGroups/FTS/providers/Microsoft.Web/sites/foodtrucksofstillwater",
+    "appService.deploySubpath": ""
+}

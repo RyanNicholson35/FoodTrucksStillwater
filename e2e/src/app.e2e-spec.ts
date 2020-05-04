@@ -12,6 +12,7 @@ describe('workspace-project App', () => {
     page.navigateTo();
     expect(page.getTitleText()).toEqual('StillwaterFTS app is running!');
   });
+  
 
   afterEach(async () => {
     // Assert that there are no errors emitted from the browser
@@ -21,3 +22,5 @@ describe('workspace-project App', () => {
     } as logging.Entry));
   });
 });
+
+

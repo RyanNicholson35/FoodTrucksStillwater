@@ -1,0 +1,152 @@
+agm-map {
+    height: 500px;    
+}
+
+
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    width:100%;
+    line-height: 1.6;
+    overflow: hidden;
+  }
+  
+
+  .container {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  
+  .centerheader{
+      text-align: center;
+  }
+
+  .lead {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width:100%;
+    height: 60px;
+    margin:0;
+    background: rgba(0,0,0,0.7);
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbar ul li {
+    margin: 0 1rem;
+    padding: 6px;
+    text-align: center;
+
+  }
+
+  .moveleft{
+    right:40px;
+  }
+
+  .logo {
+    position: absolute;
+    bottom:8px;
+    left:12px;
+    height: 40px;
+    width:40px;
+  }
+
+  .brandname{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight:bold;
+    position: absolute;
+    bottom: -7px;
+   left: -10px;
+   color: #FF8300;
+
+}
+  
+  
+  .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+  }
+  
+  .navbar ul li a:hover {
+    color: skyblue;
+  }
+  section#FoodTrucks{
+    background: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+   
+    /* Scroll Snap */
+    scroll-snap-align: center;
+  }
+  
+  section h1 {
+    font-size: 4rem;
+  }
+
+section#home{
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+
+       
+    /* Scroll Snap */
+    scroll-snap-align: center;
+}
+.border{
+  border-bottom-color:white;
+}
+section#Locations{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  width: 100%;
+  height: 30vh;
+}
+
+  section#OurTrucks {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    width: 100%;
+    height: 340vh;
+
+  }
+
+
+  .centerall {
+      text-align: center;
+      align-content: center;
+  }
